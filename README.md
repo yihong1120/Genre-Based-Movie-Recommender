@@ -26,7 +26,7 @@ pip install -r requirements.txt
 1. Clone this repository to your local machine:
 
 ```sh
-git clone https://github.com/yourusername/GenreBasedMovieRecommender.git
+git clone https://github.com/yihong1120/GenreBasedMovieRecommender.git
 ```
 
 2. Change to the repository directory:
