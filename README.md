@@ -32,7 +32,7 @@ git clone https://github.com/yihong1120/Genre-Based-Movie-Recommender.git
 2. Change to the repository directory:
 
 ```sh
-cd GenreBasedMovieRecommender
+cd Genre-Based-Movie-Recommender
 ```
 
 3. Download the movie dataset from [MovieLens](https://grouplens.org/datasets/movielens/) and save it in the **'dataset/ml-latest-small/'** directory.
