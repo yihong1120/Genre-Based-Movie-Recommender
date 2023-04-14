@@ -45,7 +45,7 @@ def recommend_movies(movie_title, year=None, n_recommendations=5):
     recommended_movie_indices = [i[0] for i in sim_scores]
     return movies.iloc[recommended_movie_indices]
 
-if name == "main":
+if __name__ == "__main__":
     year = 1995
     movie_title = "Toy Story"
     n_recommendations = 10
