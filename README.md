@@ -26,7 +26,7 @@ pip install -r requirements.txt
 1. Clone this repository to your local machine:
 
 ```sh
-git clone https://github.com/yihong1120/GenreBasedMovieRecommender.git
+git clone https://github.com/yihong1120/Genre-Based-Movie-Recommender.git
 ```
 
 2. Change to the repository directory:
@@ -35,13 +35,13 @@ git clone https://github.com/yihong1120/GenreBasedMovieRecommender.git
 cd GenreBasedMovieRecommender
 ```
 
-3. Download the movie dataset from MovieLens and save it in the dataset/ml-latest-small/ directory.
+3. Download the movie dataset from [MovieLens](https://grouplens.org/datasets/movielens/) and save it in the **'dataset/ml-latest-small/'** directory.
 
-4. Make sure the dataset file is named movies.csv.
+4. Make sure the dataset file is named **'movies.csv'**.
 
 ## Usage
 
-1. Open the movie_recommender.py file and modify the following lines with the appropriate movie title and year:
+1. Open the **'movie_recommender.py'** file and modify the following lines with the appropriate movie title and year:
 
 ```python
 year = 1995
@@ -52,6 +52,35 @@ movie_title = "Toy Story"
 
 ```sh
 python movie_recommender.py
+```
+
+3. The script will print the top 10 recommended movies similar to the specified movie.
+
+```
+Similar recommendations for movie  'Toy Story' ：
+      movieId                                              title  \
+1706     2294                                        Antz (1998)   
+2355     3114                                 Toy Story 2 (1999)   
+2809     3754     Adventures of Rocky and Bullwinkle, The (2000)   
+3000     4016                   Emperor's New Groove, The (2000)   
+3568     4886                              Monsters, Inc. (2001)   
+6194    45074                                   Wild, The (2006)   
+6486    53121                             Shrek the Third (2007)   
+6948    65577                     Tale of Despereaux, The (2008)   
+7760    91355  Asterix and the Vikings (Astérix et les Viking...   
+8219   103755                                       Turbo (2013)   
+
+                                           genres  
+1706  adventure animation children comedy fantasy  
+2355  adventure animation children comedy fantasy  
+2809  adventure animation children comedy fantasy  
+3000  adventure animation children comedy fantasy  
+3568  adventure animation children comedy fantasy  
+6194  adventure animation children comedy fantasy  
+6486  adventure animation children comedy fantasy  
+6948  adventure animation children comedy fantasy  
+7760  adventure animation children comedy fantasy  
+8219  adventure animation children comedy fantasy  
 ```
 
 ## Contributing
@@ -65,8 +94,8 @@ If you would like to contribute to this project, please follow these steps:
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/yihong1120/Genre-Based-Movie-Recommender/blob/main/LICENSE) file for details.
 
 ## Acknowledgments
 
-* MovieLens for providing the movie dataset.
+* [MovieLens](https://grouplens.org/datasets/movielens/) for providing the movie dataset.
